@@ -9,4 +9,4 @@ In case you see the following error:
 
 Copy the libtensorflow.dll file from the relevant %userprofile%.nuget\packages\tensorflowsharp runtimes folder of your OS into the same folder as the compiled executable. It is known an issue with TensorflowSharp library.
 
-Code is partly based on [this repo](https://github.com/daltskin/CustomVision-TensorFlow-CSharp).
+Code is partly based on examples in [TensorFlowSharp repo](https://github.com/migueldeicaza/TensorFlowSharp).
