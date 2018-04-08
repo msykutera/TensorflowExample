@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "63e59db3-15e8-454d-9b1b-02802b5a9c3f",
+		"name": "TensorflowExample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TensorflowExample request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:10471/api/values",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "10471",
+					"path": [
+						"api",
+						"values"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
