@@ -7,6 +7,6 @@ In case you see the following error:
 
 <i>Unhandled Exception: System.DllNotFoundException: Unable to load DLL 'libtensorflow': The specified module could not be found.</i>
 
-Copy the libtensorflow.dll file from the relevant %userprofile%.nuget\packages\tensorflowsharp runtimes folder of your OS into the same folder as the compiled executable.
+Copy the libtensorflow.dll file from the relevant %userprofile%.nuget\packages\tensorflowsharp runtimes folder of your OS into the same folder as the compiled executable. It is known an issue with TensorflowSharp library.
 
 Code is partly based on [this repo](https://github.com/daltskin/CustomVision-TensorFlow-CSharp).
